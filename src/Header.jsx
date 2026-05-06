@@ -6,7 +6,7 @@ export default function Header({ title }) {
   getRandomInt(3);
   return (
     <header>
-      <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
+      <img src="/react-core-concepts.png" alt="Stylized atom" />
       <h1>{title}</h1>
       <p>
         {words[getRandomInt(words.length)]} React concepts you will need for
